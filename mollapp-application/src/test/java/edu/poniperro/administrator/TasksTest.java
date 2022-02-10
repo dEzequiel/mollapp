@@ -16,6 +16,8 @@ public class TasksTest {
         tasks.setTarget(vehicle);
 
         assertEquals(true, tasks.getTarget().isPresent());
+        assertEquals(false, tasks.getTarget().isEmpty());
+
     }
 
 
