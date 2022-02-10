@@ -1,5 +1,4 @@
 package edu.poniperro.administrator;
-import edu.poniperro.administrator.*;
 import edu.poniperro.filter.Authentication;
 import edu.poniperro.filter.Authorization;
 import edu.poniperro.targets.Vehicle;
@@ -18,4 +17,12 @@ public class ProgrammerTasksTest {
         assertEquals(2, programmer.getTasks().size());
     }
 
+    // @Test
+    // public void executeTasks() {
+    //     ProgrammerTasks programmer = new ProgrammerTasks(new Vehicle());
+    //     programmer.addTask(new Authentication());
+    //     programmer.addTask(new Authorization());
+
+    //     programmer.execute("eze");
+    // }
 }
